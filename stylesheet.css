@@ -1,0 +1,87 @@
+.header {
+  background-color: #00aa00;
+  width: 100%;
+  z-index: 10;
+
+}
+.fas {
+  font-size: 20px;
+  padding: 10px;
+}
+.fa-angle-double-right {
+  background-color: #00aa00;
+}
+.fa-angle-double-left {
+  background-color: #00aa00;
+}
+.fa-bell {
+  float: right;
+  font-size: 20px;
+  padding: 20px;
+}
+.login-form {
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.header p {
+  padding-right: 50px;
+  font-size: 30px;
+  float: right;
+}
+.contents{
+  padding: 10px;
+  font-size: 10px;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.main-place{
+  text-align: center;
+  background-color: #afeeee;
+  width: 100%;
+}
+.contents a{
+  font-size: 20px;
+  color: black;
+
+  background-color: #aaa;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+.contents p{
+font-size: 20px;
+}
+.slide-close {
+  box-sizing:  border-box;
+  opacity: 0.8;
+  position: fixed;
+  left: -100px; /*要　変更*/
+  top: 0px;
+  width: 200px;
+  height: 450px;
+}
+.long-menu {
+  width: 100px;
+  padding-bottom: 200px;
+  background-color: rgba(100, 150, 120, 0.8);
+  float: left;
+  z-index: 10;
+}
+.nav1 {
+  background-color: ;
+  text-align: center;
+}
+.chart {
+  font-size: 40px;
+  z-index: 20;
+}
