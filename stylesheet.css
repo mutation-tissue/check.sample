@@ -65,7 +65,7 @@ font-size: 20px;
   box-sizing:  border-box;
   opacity: 0.8;
   position: fixed;
-  left: -100px; /*要　変更*/
+  left: -100px;
   top: 0px;
   width: 200px;
   height: 450px;
