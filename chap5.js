@@ -1,7 +1,6 @@
   $('.list-menu').on('click',function(){
       $(this).css('color', '#ff0000');
   });
-alert('fhfhf');
    $('#slideL').on('click',function(){
      if($('#slideL').hasClass('off')){
        $('#slideL').removeClass('off fa-angle-double-right');
