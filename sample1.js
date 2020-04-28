@@ -64,6 +64,7 @@ function load_number() {
 function save (count) {
     localStorage.setItem("count1",count);
 }
+jQuery(window).load(function() {
   $('.list-menu').on('click',function(){
       $(this).css('color', '#ff0000');
   });
@@ -82,3 +83,4 @@ function save (count) {
        },300);
      }
    });
+});
