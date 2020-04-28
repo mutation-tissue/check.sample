@@ -1,8 +1,8 @@
   jQuery('.list-menu').on('click',function(){
-      $(this).css('color', '#ff0000');
+      jQuery(this).css('color', '#ff0000');
   });
    jQuery('#slideL').on('click',function(){
-     if($('#slideL').hasClass('off')){
+     if(jQuery('#slideL').hasClass('off')){
        jQuery('#slideL').removeClass('off fa-angle-double-right');
        jQuery('#slideL').addClass('fa-angle-double-left');
        jQuery('.slide-close').animate({
