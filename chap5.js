@@ -12,7 +12,7 @@
        $('#slideL').addClass('off fa-angle-double-right');
        $('#slideL').removeClass('fa-angle-double-left');
        $('.slide-close').animate({
-         'left': '-100px'
+         'left': '-150px'
        },300);
      }
    });
