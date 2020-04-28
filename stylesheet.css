@@ -1,3 +1,6 @@
+body {
+  background-color: #dcdcdc;
+}
 .header {
   background-color: #00aa00;
   width: 100%;
@@ -39,20 +42,23 @@ li {
 .contents{
   padding: 10px;
   font-size: 10px;
+  cursor: pointer;
+}
+.contents p {
+    text-align: center;
 }
 *{
   padding: 0;
   margin: 0;
 }
 .main-place{
-  text-align: center;
-  background-color: #afeeee;
   width: 100%;
+  text-align: center;
+  padding-top: 30px;
 }
 .contents a{
   font-size: 20px;
   color: black;
-
   background-color: #aaa;
   padding-left: 30px;
   padding-right: 30px;
@@ -65,23 +71,33 @@ font-size: 20px;
   box-sizing:  border-box;
   opacity: 0.8;
   position: fixed;
-  left: -100px;
+  left: -150px; /*要　変更*/
   top: 0px;
   width: 200px;
   height: 450px;
 }
 .long-menu {
-  width: 100px;
-  padding-bottom: 200px;
-  background-color: rgba(100, 150, 120, 0.8);
+  width: 150px;
+  padding-bottom: 100px;
+  background-color: rgba(128, 128, 128, 1.0);
   float: left;
   z-index: 10;
 }
+.long-menu li {
+  padding-top: 20px;
+}
 .nav1 {
-  background-color: ;
   text-align: center;
+  cursor: default;
 }
 .chart {
   font-size: 40px;
   z-index: 20;
 }
+.form-diary {
+}
+.text {
+  resize: none;
+  width: 50%;
+  height: 100px;
+  }
