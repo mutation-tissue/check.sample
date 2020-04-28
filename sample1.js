@@ -31,7 +31,7 @@ var barChartData = {
 window.onload = function(){
   var count = load_number();
    var ctx = document.getElementById("graph-area").getContext("2d");
-   window.myBar = new Chart(ctx).Bar(barChartData);
+   window.myBar = new Chart(ctx).Bar(barChartData)
 // ページが読み込まれたら実行
 var count1 = load_number();
 document.getElementById("dayCount").innerHTML = count1;
