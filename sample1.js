@@ -2,7 +2,6 @@
 let slideshow = ()=> {
   document.getElementById('el').classList.toggle('fas');
   document.getElementById('el').classList.toggle('far');
-  alert("fa");
 }
 let check = () => {
   alert("クリックされました");
