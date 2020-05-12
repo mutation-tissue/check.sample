@@ -31,6 +31,7 @@ function load_number() {
     if(
       count &&
       1 <= count &&
+      
       Math.floor(count) === count
     ) {
       return count;
