@@ -67,11 +67,20 @@ li {
 .contents p{
 font-size: 20px;
 }
-.slide-close {
+.slide_close {
   box-sizing:  border-box;
   opacity: 0.8;
   position: fixed;
   left: -150px; /*要　変更*/
+  top: 0px;
+  width: 200px;
+  height: 450px;
+}
+.asdf {
+  box-sizing:  border-box;
+  opacity: 0.8;
+  position: fixed;
+  left: 0px; /*要　変更*/
   top: 0px;
   width: 200px;
   height: 450px;
