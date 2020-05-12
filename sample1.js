@@ -13,29 +13,6 @@ let clear = () => {
   alert("消去しました");
 }
 var count1 = load_number();
-var barChartData = {
-   labels : ["白神フブキ","大神ミオ","戌神ころね","猫又おかゆ"],
-   datasets : [
-      {
-         fillColor : "rgba(240,128,128,0.6)",    // 塗りつぶし色
-         strokeColor : "rgba(240,128,128,0.9)",  // 枠線の色
-         highlightFill: "rgba(255,64,64,0.75)",  // マウスが載った際の塗りつぶし色
-         highlightStroke: "rgba(255,64,64,1)",   // マウスが載った際の枠線の色
-         data : [ count1, 30, 40, 45]     // 各棒の値(カンマ区切りで指定)
-      }
-   ]
-
-}
-
-// ▼上記のグラフを描画するための記述
-window.onload = function(){
-  var count = load_number();
-   var ctx = document.getElementById("graph-area").getContext("2d");
-   window.myBar = new Chart(ctx).Bar(barChartData)
-// ページが読み込まれたら実行
-var count1 = load_number();
-document.getElementById("dayCount").innerHTML = count1;
-}
 let reset = ()=> {
   var count1 = load_number();
   count1 = 0;
