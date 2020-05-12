@@ -13,7 +13,7 @@ let clear = () => {
   alert("消去しました");
 }
 let slide = ()=> {
-  document.getElementById('lideL').classList.toggle('asdf');
+  document.getElementById('slideL').classList.toggle('asdf');
   document.getElementById('slideL').classList.toggle('slide_close');
 }
 var count1 = load_number();
